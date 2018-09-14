@@ -1,11 +1,11 @@
 # backend
 
-## `/test`
+## POST `/test`
 
 ```json
 {
     "ingredients": [
-        "beef", 
+        "beef",
         "tomatoes"
 	]
 }
