@@ -18,7 +18,7 @@ msg.payload.ingredientsDB =  [
     CO2: 27.76,
     Energy: 164.22,
     Water: 0.47,
-    Replacement: {Name:'Tofu',CO2:3.23}
+    Replacement: {Product:'Tofu',CO2:3.23}
   },
   {
     Product: 'Cheese slices',
@@ -212,7 +212,7 @@ msg.payload.ingredientsDB =  [
     CO2: 25.44,
     Energy: '',
     Water: '',
-    Replacement: {Name:'Rabbit',CO2:3.61}
+    Replacement: {Product:'Rabbit',CO2:3.61}
   },
   {
     Product: 'Butter',
@@ -243,7 +243,7 @@ msg.payload.ingredientsDB =  [
     CO2: 3.4,
     Energy: '',
     Water: '',
-    Replacement: {Name: 'Eggs regional', CO2: 3.2}
+    Replacement: {Product: 'Eggs regional', CO2: 3.2}
   },
   {
     Product: 'Insect',
@@ -256,7 +256,7 @@ msg.payload.ingredientsDB =  [
     CO2: 1.4,
     Energy: '',
     Water: '',
-    Replacement: {Name: 'Almond Milk', CO2: 1.09}
+    Replacement: {Product: 'Almond Milk', CO2: 1.09}
   },
   {
     Product: 'Wheat',
@@ -348,14 +348,14 @@ msg.payload.ingredientsDB =  [
     CO2: 0.35,
     Energy: '',
     Water: '',
-    Replacement: {Name:'Pepper regional',CO2:0.33}
+    Replacement: {Product:'Pepper regional',CO2:0.33}
   },
   {
     Product: 'Courgette',
     CO2: 0.31,
     Energy: '',
     Water: '',
-    Replacement: {Name:'Courgettes organic',CO2:0.30}
+    Replacement: {Product:'Courgettes organic',CO2:0.30}
   },
   {
     Product: 'Cream',
@@ -368,7 +368,7 @@ msg.payload.ingredientsDB =  [
     CO2: 0.4,
     Energy: '',
     Water: '',
-    Replacement: {Name:'Ribes (seasonal)',CO2:0.35}
+    Replacement: {Product:'Ribes (seasonal)',CO2:0.35}
   },
   {
     Product: 'Biscuits',
