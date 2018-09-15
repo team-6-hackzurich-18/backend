@@ -6,47 +6,47 @@
     "ingredients": [
 			{
         "Product": "Beef",
-				"kg":0.6
+				"kg":0.15
 			},
 			{
         "Product": "Onions",
-				"kg":0.166
+				"kg":0.044
 			},
 			{
         "Product": "Tomatoes",
-				"kg":0.06
+				"kg":0.015
 			},
 			{
         "Product": "Carrots",
-				"kg":0.2
+				"kg":0.05
 			},
 			{
         "Product": "Celery",
-				"kg":0.2
+				"kg":0.05
 			},
 			{
         "Product": "Red wine",
-				"kg":0.3
+				"kg":0.075
 			},
 			{
         "Product": "Butter",
-				"kg":0.048
+				"kg":0.012
 			},
 			{
         "Product": "White Flour",
-				"kg":0.045
+				"kg":0.01
 			},
 			{
         "Product": "Whole Milk",
-				"kg":0.6
+				"kg":0.15
 			},
 			{
 				"Product": "Dry Pasta",
-				"kg":0.5
+				"kg":0.125
 			},
 			{
         "Product": "Cheese slices",
-				"kg":0.08
+				"kg":0.02
 			}
 		]
 }
@@ -60,35 +60,35 @@
     "ingredients": [
 			{
         "Product": "Olive oil",
-				"kg":0.16
+				"kg":0.04
 			},
       {
         "Product": "Onion",
-				"kg":0.083
+				"kg":0.0208
 			},
       {
         "Product": "Garlic",
-				"kg":0.03
+				"kg":0.0075
 			},
       {
         "Product": "Aubergine",
-				"kg":0.34
+				"kg":0.085
 			},
       {
         "Product": "Pepper",
-				"kg":0.155
+				"kg":0.0388
 			},
       {
         "Product": "Courgette",
-				"kg":0.21
+				"kg":0.0525
 			},
       {
         "Product": "Tomatoes",
-				"kg":0.2
+				"kg":0.05
 			},
       {
         "Product": "Lamb",
-				"kg":0.7
+				"kg":0.175
 			},
 		]
 }
@@ -103,27 +103,27 @@
   "ingredients": [
     {
       "Product": "Whole Milk",
-      "kg": 0.3
+      "kg": 0.075
     },
     {
       "Product": "Cream",
-      "kg":0.4
-    },
-    {
-      "Product": "Eggs",
-      "kg":0.126
-    },
-    {
-      "Product": "Chocolate",
       "kg":0.1
     },
     {
+      "Product": "Eggs",
+      "kg":0.0315
+    },
+    {
+      "Product": "Chocolate",
+      "kg":0.025
+    },
+    {
       "Product": "Strawberries",
-      "kg":0.15
+      "kg":0.0375
     },
     {
       "Product": "Biscuits",
-      "kg":0.02
+      "kg":0.005
     },
   ]
 }
