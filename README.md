@@ -5,9 +5,14 @@
 ```json
 {
     "ingredients": [
-        "beef":{"kg":0.5},
-        "tomatoes":{"kg":0.3}
-	]
+			{
+        "Product": "Beef",
+				"kg":0.5
+			},
+			{
+				"Product": "Lamb",
+				"kg":0.2
+			}
+		]
 }
 ```
-
