@@ -213,6 +213,7 @@
       CO2: 25.44,
       Energy: '',
       Water: ''
+      Replacement: {Name:'Rabbit',CO2:3.61}
     },
     {
       Product: 'Butter',
@@ -243,6 +244,7 @@
       CO2: 3.4,
       Energy: '',
       Water: ''
+      Replace: {Name: 'Eggs regional', CO2: 3.2}
     },
     {
       Product: 'Insect',
@@ -255,6 +257,7 @@
       CO2: 1.4,
       Energy: '',
       Water: ''
+      Replacement: {Name: 'Almond Milk', CO2: 1.09}
     },
     {
       Product: 'Wheat',
@@ -346,12 +349,14 @@
       CO2: 0.35,
       Energy: '',
       Water: ''
+      Replacement: {Name:'Pepper regional',CO2:0.33}
     },
     {
       Product: 'Courgette',
       CO2: 0.31,
       Energy: '',
       Water: ''
+      Replacement: {Name:'Courgettes organic',CO2:0.30}
     },
     {
       Product: 'Cream',
@@ -370,6 +375,6 @@
       CO2: 2.5,
       Energy: '',
       Water: ''
-    },
+    }
   ]
 }
