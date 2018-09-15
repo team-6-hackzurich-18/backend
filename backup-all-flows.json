@@ -1,1 +1,1 @@
-[{"id":"5be3822.7ba417c","type":"http in","z":"ca0c3aa0.342be8","name":"","url":"/history","method":"get","upload":false,"swaggerDoc":"","x":170,"y":600,"wires":[["e484cd28.8fbfe"]]}]
+[{"id":"79643e6f.18584","type":"http response","z":"ca0c3aa0.342be8","name":"Response","statusCode":"200","headers":{},"x":980,"y":600,"wires":[]}]

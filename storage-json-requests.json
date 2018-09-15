@@ -1,19 +1,21 @@
 {
+		"Name": "Lasagne",
+
     "ingredients": [
 			{
         "Product": "Beef",
 				"kg":0.6
 			},
 			{
-        "Product": "Wheat", 
+        "Product": "Wheat",
 				"kg":0.1
 			},
 			{
-        "Product": "Whole Milk", 
+        "Product": "Whole Milk",
 				"kg":0.6
 			},
 			{
-        "Product": "Cheese slices", 
+        "Product": "Cheese slices",
 				"kg":0.08
 			},
 			{
