@@ -1,44 +1,3 @@
-// Original
-{
-    "ingredients": [
-				{
-					"Product": "Beef",
-					"kg":0.5
-				},
-				{
-					"Product": "Lamb",
-					"kg":0.2
-				}
-		]
-}
-
-
-
-{
-    "ingredients": [
-			{
-        "Product": "Beef",
-				"kg":0.6
-			},
-			{
-        "Product": "Wheat", // add to excel
-				"kg":0.1
-			},
-			{
-        "Product": "Whole Milk", // add to excel
-				"kg":0.6
-			},
-			{
-        "Product": "Cheese slices", // add to excel
-				"kg":0.08
-			},
-			{
-				"Product": "Dry Pasta",
-				"kg":0.5
-			}
-		]
-}
-
 {
     "ingredients": [
 			{
@@ -61,6 +20,5 @@
 				"Product": "Dry Pasta",
 				"kg":0.5
 			}
-		],
-	"user": 2
+		]
 }
