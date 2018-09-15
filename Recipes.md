@@ -3,6 +3,8 @@
 
 ```json
 {
+    "Name": "Lasagne",
+
     "ingredients": [
 			{
         "Product": "Beef",
@@ -57,6 +59,7 @@
 
 ```json
 {
+    "Name": "Provencale-Style Rack of Lamb with Ratatouille",
     "ingredients": [
 			{
         "Product": "Olive oil",
@@ -100,6 +103,8 @@
 
 ```json
 {
+  "Name": "Chocolate Dessert with Strawberries",
+
   "ingredients": [
     {
       "Product": "Whole Milk",
