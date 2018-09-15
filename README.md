@@ -5,8 +5,8 @@
 ```json
 {
     "ingredients": [
-        "beef",
-        "tomatoes"
+        "beef":{"kg":0.5},
+        "tomatoes":{"kg":0.3}
 	]
 }
 ```
