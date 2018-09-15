@@ -1,381 +1,382 @@
 // Entries to add to the ingredientsDB:
 
-{
-  ingredientsDB: [
-    {
-      Product: 'Almond milk',
-      CO2: 1.09,
-      Energy: 1.09,
-      Water: 1.09,
-    },
-    {
-      Product: 'Almonds',
-      CO2: 2.18,
-      Energy: 26.31,
-      Water: 1.9,
-    },
-    {
-      Product: 'Beef',
-      CO2: 27.76,
-      Energy: 164.22,
-      Water: 0.47,
-      Replacement: {Name:'Tofu',CO2:3.23}
-    },
-    {
-      Product: 'Cheese slices',
-      CO2: 8.29,
-      Energy: 35.5,
-      Water: 0.15,
-    },
-    {
-      Product: 'Cheese spread',
-      CO2: 6.2,
-      Energy: 26.71,
-      Water: 0.11,
-    },
-    {
-      Product: 'Chicken',
-      CO2: 6.82,
-      Energy: 64.14,
-      Water: 0.34,
-    },
-    {
-      Product: 'Chocolate',
-      CO2: 14.67,
-      Energy: 90.25,
-      Water: 0.38,
-    },
-    {
-      Product: 'Chocolate milk',
-      CO2: 4.65,
-      Energy: 26.92,
-      Water: 0.11,
-    },
-    {
-      Product: 'Corn',
-      CO2: 0.19,
-      Energy: 1.88,
-      Water: 0.06,
-    },
-    {
-      Product: 'Dried Beef',
-      CO2: 27.76,
-      Energy: 164.22,
-      Water: 0.47,
+msg.payload.ingredientsDB =  [
+  {
+    Product: 'Almond milk',
+    CO2: 1.09,
+    Energy: 1.09,
+    Water: 1.09,
+  },
+  {
+    Product: 'Almonds',
+    CO2: 2.18,
+    Energy: 26.31,
+    Water: 1.9,
+  },
+  {
+    Product: 'Beef',
+    CO2: 27.76,
+    Energy: 164.22,
+    Water: 0.47,
+    Replacement: {Name:'Tofu',CO2:3.23}
+  },
+  {
+    Product: 'Cheese slices',
+    CO2: 8.29,
+    Energy: 35.5,
+    Water: 0.15,
+  },
+  {
+    Product: 'Cheese spread',
+    CO2: 6.2,
+    Energy: 26.71,
+    Water: 0.11,
+  },
+  {
+    Product: 'Chicken',
+    CO2: 6.82,
+    Energy: 64.14,
+    Water: 0.34,
+  },
+  {
+    Product: 'Chocolate',
+    CO2: 14.67,
+    Energy: 90.25,
+    Water: 0.38,
+  },
+  {
+    Product: 'Chocolate milk',
+    CO2: 4.65,
+    Energy: 26.92,
+    Water: 0.11,
+  },
+  {
+    Product: 'Corn',
+    CO2: 0.19,
+    Energy: 1.88,
+    Water: 0.06,
+  },
+  {
+    Product: 'Dried Beef',
+    CO2: 27.76,
+    Energy: 164.22,
+    Water: 0.47,
 
-    },
-    {
-      Product: 'Dry Pasta',
-      CO2: 1.49,
-      Energy: 17.23,
-      Water: 0.01,
+  },
+  {
+    Product: 'Dry Pasta',
+    CO2: 1.49,
+    Energy: 17.23,
+    Water: 0.01,
 
-    },
-    {
-      Product: 'Fresh ravioli with meat',
-      CO2: 10.25,
-      Energy: 66.22,
-      Water: 0.16,
+  },
+  {
+    Product: 'Fresh ravioli with meat',
+    CO2: 10.25,
+    Energy: 66.22,
+    Water: 0.16,
 
-    },
-    {
-      Product: 'Fresh ravioli with spinach and ricotta',
-      CO2: 3.06,
-      Energy: 20.38,
-      Water: 0.04,
+  },
+  {
+    Product: 'Fresh ravioli with spinach and ricotta',
+    CO2: 3.06,
+    Energy: 20.38,
+    Water: 0.04,
 
-    },
-    {
-      Product: 'Gruy\ufffdre',
-      CO2: 8.29,
-      Energy: 35.5,
-      Water: 0.15,
+  },
+  {
+    Product: 'Gruy\ufffdre',
+    CO2: 8.29,
+    Energy: 35.5,
+    Water: 0.15,
 
-    },
-    {
-      Product: 'Ham',
-      CO2: 10.76,
-      Energy: 91.4,
+  },
+  {
+    Product: 'Ham',
+    CO2: 10.76,
+    Energy: 91.4,
 
-      Water: 0.52
-    },
-    {
-      Product: 'Lentils',
-      CO2: 0.78,
-      Energy: 5.67,
+    Water: 0.52
+  },
+  {
+    Product: 'Lentils',
+    CO2: 0.78,
+    Energy: 5.67,
 
-      Water: 0.14
-    },
-    {
-      Product: 'Low fat organic milk',
-      CO2: 1.11,
-      Energy: 1.39,
-      Water: 0
-    },
-    {
-      Product: 'Non-free range eggs',
-      CO2: 3.94,
-      Energy: 36.1,
-      Water: 0.18
-    },
-    {
-      Product: 'Pancetta',
-      CO2: 10.76,
-      Energy: 91.4,
-      Water: 0.52
-    },
-    {
-      Product: 'Pork',
-      CO2: 10.76,
-      Energy: 91.4,
-      Water: 0.52
-    },
-    {
-      Product: 'Pork sausages',
-      CO2: 10.76,
-      Energy: 91.4,
-      Water: 0.52
-    },
-    {
-      Product: 'Quorn',
-      CO2: 0.19,
-      Energy: 1.88,
-      Water: 0.06
-    },
-    {
-      Product: 'Red kidney beans',
-      CO2: 0.78,
-      Energy: 5.67,
-      Water: 0.14
-    },
-    {
-      Product: 'Rice milk',
-      CO2: 0.26,
-      Energy: 0.26,
-      Water: 0.26
-    },
-    {
-      Product: 'Risotto rice',
-      CO2: 1.03,
-      Energy: 5.43,
-      Water: 0.35
-    },
-    {
-      Product: 'Sliced beef',
-      CO2: 27.76,
-      Energy: 164.22,
-      Water: 0.47
-    },
-    {
-      Product: 'Sliced chicken',
-      CO2: 6.8,
-      Energy: 64,
-      Water: 0.34
-    },
-    {
-      Product: 'Smoked cheese',
-      CO2: 6.2,
-      Energy: 26.71,
-      Water: 0.11
-    },
-    {
-      Product: 'Spaghetti Carbonara pre-made meal',
-      CO2: 3.44,
-      Energy: 28.52,
-      Water: 0.11
-    },
-    {
-      Product: 'Tofu',
-      CO2: 3.23,
-      Energy: 14.37,
-      Water: 0
-    },
-    {
-      Product: 'UHT milk',
-      CO2: 1.31,
-      Energy: 5.82,
-      Water: 0.02
-    },
-    {
-      Product: 'Vegetarian salami',
-      CO2: 0.19,
-      Energy: 1.88,
-      Water: 0.06
-    },
-    {
-      Product: 'Wholegrain dry pasta',
-      CO2: 1.49,
-      Energy: 17.23,
-      Water: 0.01
-    },
-    {
-      Product: 'Lamb',
-      CO2: 25.44,
-      Energy: '',
-      Water: ''
-      Replacement: {Name:'Rabbit',CO2:3.61}
-    },
-    {
-      Product: 'Butter',
-      CO2: 11.52,
-      Energy: '',
-      Water: ''
-    },
-    {
-      Product: 'Turkey',
-      CO2: 5.9,
-      Energy: '',
-      Water: ''
-    },
-    {
-      Product: 'Rabbit',
-      CO2: 3.61,
-      Energy: '',
-      Water: ''
-    },
-    {
-      Product: 'Cod',
-      CO2: 3.49,
-      Energy: '',
-      Water: ''
-    },
-    {
-      Product: 'Eggs',
-      CO2: 3.4,
-      Energy: '',
-      Water: ''
-      Replace: {Name: 'Eggs regional', CO2: 3.2}
-    },
-    {
-      Product: 'Insect',
-      CO2: 2.3,
-      Energy: '',
-      Water: ''
-    },
-    {
-      Product: 'Whole Milk',
-      CO2: 1.4,
-      Energy: '',
-      Water: ''
-      Replacement: {Name: 'Almond Milk', CO2: 1.09}
-    },
-    {
-      Product: 'Wheat',
-      CO2: 0.51,
-      Energy: '',
-      Water: ''
-    },
-    {
-      Product: 'Peas',
-      CO2: 0.6,
-      Energy: '',
-      Water: ''
-    },
-    {
-      Product: 'Barley',
-      CO2: 0.52,
-      Energy: '',
-      Water: ''
-    },
-    {
-      Product: 'Chickpeas',
-      CO2: 0.67,
-      Energy: '',
-      Water: ''
-    },
-    //Added made up Entries..................................
-    {
-      Product: 'Onions',
-      CO2: 0.2,
-      Energy: '',
-      Water: ''
-    },
-    {
-      Product: 'Tomatoes',
-      CO2: 0.6,
-      Energy: '',
-      Water: ''
-    },
-    {
-      Product: 'Carrots',
-      CO2: 0.3,
-      Energy: '',
-      Water: ''
-    },
-    {
-      Product: 'Celery',
-      CO2: 0.4,
-      Energy: '',
-      Water: ''
-    },
-    {
-      Product: 'Red wine',
-      CO2: 1.5,
-      Energy: '',
-      Water: ''
-    },
-    {
-      Product: 'White Flour',
-      CO2: 0.55,
-      Energy: '',
-      Water: ''
-    },
-    {
-      Product: 'Red wine',
-      CO2: 1.5,
-      Energy: '',
-      Water: ''
-    },
-    {
-      Product: 'Olive oil',
-      CO2: 0.8,
-      Energy: '',
-      Water: ''
-    },
-    {
-      Product: 'Garlic',
-      CO2: 0.2,
-      Energy: '',
-      Water: ''
-    },
-    {
-      Product: 'Aubergine',
-      CO2: 0.32,
-      Energy: '',
-      Water: ''
-    },
-    {
-      Product: 'Pepper',
-      CO2: 0.35,
-      Energy: '',
-      Water: ''
-      Replacement: {Name:'Pepper regional',CO2:0.33}
-    },
-    {
-      Product: 'Courgette',
-      CO2: 0.31,
-      Energy: '',
-      Water: ''
-      Replacement: {Name:'Courgettes organic',CO2:0.30}
-    },
-    {
-      Product: 'Cream',
-      CO2: 2.1,
-      Energy: '',
-      Water: ''
-    },
-    {
-      Product: 'Strawberries',
-      CO2: 0.4,
-      Energy: '',
-      Water: ''
-      Replacement: {Name:'Ribes (seasonal)',CO2:0.35}
-    },
-    {
-      Product: 'Biscuits',
-      CO2: 2.5,
-      Energy: '',
-      Water: ''
-    }
-  ]
-}
+    Water: 0.14
+  },
+  {
+    Product: 'Low fat organic milk',
+    CO2: 1.11,
+    Energy: 1.39,
+    Water: 0
+  },
+  {
+    Product: 'Non-free range eggs',
+    CO2: 3.94,
+    Energy: 36.1,
+    Water: 0.18
+  },
+  {
+    Product: 'Pancetta',
+    CO2: 10.76,
+    Energy: 91.4,
+    Water: 0.52
+  },
+  {
+    Product: 'Pork',
+    CO2: 10.76,
+    Energy: 91.4,
+    Water: 0.52
+  },
+  {
+    Product: 'Pork sausages',
+    CO2: 10.76,
+    Energy: 91.4,
+    Water: 0.52
+  },
+  {
+    Product: 'Quorn',
+    CO2: 0.19,
+    Energy: 1.88,
+    Water: 0.06
+  },
+  {
+    Product: 'Red kidney beans',
+    CO2: 0.78,
+    Energy: 5.67,
+    Water: 0.14
+  },
+  {
+    Product: 'Rice milk',
+    CO2: 0.26,
+    Energy: 0.26,
+    Water: 0.26
+  },
+  {
+    Product: 'Risotto rice',
+    CO2: 1.03,
+    Energy: 5.43,
+    Water: 0.35
+  },
+  {
+    Product: 'Sliced beef',
+    CO2: 27.76,
+    Energy: 164.22,
+    Water: 0.47
+  },
+  {
+    Product: 'Sliced chicken',
+    CO2: 6.8,
+    Energy: 64,
+    Water: 0.34
+  },
+  {
+    Product: 'Smoked cheese',
+    CO2: 6.2,
+    Energy: 26.71,
+    Water: 0.11
+  },
+  {
+    Product: 'Spaghetti Carbonara pre-made meal',
+    CO2: 3.44,
+    Energy: 28.52,
+    Water: 0.11
+  },
+  {
+    Product: 'Tofu',
+    CO2: 3.23,
+    Energy: 14.37,
+    Water: 0
+  },
+  {
+    Product: 'UHT milk',
+    CO2: 1.31,
+    Energy: 5.82,
+    Water: 0.02
+  },
+  {
+    Product: 'Vegetarian salami',
+    CO2: 0.19,
+    Energy: 1.88,
+    Water: 0.06
+  },
+  {
+    Product: 'Wholegrain dry pasta',
+    CO2: 1.49,
+    Energy: 17.23,
+    Water: 0.01
+  },
+  {
+    Product: 'Lamb',
+    CO2: 25.44,
+    Energy: '',
+    Water: '',
+    Replacement: {Name:'Rabbit',CO2:3.61}
+  },
+  {
+    Product: 'Butter',
+    CO2: 11.52,
+    Energy: '',
+    Water: ''
+  },
+  {
+    Product: 'Turkey',
+    CO2: 5.9,
+    Energy: '',
+    Water: ''
+  },
+  {
+    Product: 'Rabbit',
+    CO2: 3.61,
+    Energy: '',
+    Water: ''
+  },
+  {
+    Product: 'Cod',
+    CO2: 3.49,
+    Energy: '',
+    Water: ''
+  },
+  {
+    Product: 'Eggs',
+    CO2: 3.4,
+    Energy: '',
+    Water: '',
+    Replacement: {Name: 'Eggs regional', CO2: 3.2}
+  },
+  {
+    Product: 'Insect',
+    CO2: 2.3,
+    Energy: '',
+    Water: ''
+  },
+  {
+    Product: 'Whole Milk',
+    CO2: 1.4,
+    Energy: '',
+    Water: '',
+    Replacement: {Name: 'Almond Milk', CO2: 1.09}
+  },
+  {
+    Product: 'Wheat',
+    CO2: 0.51,
+    Energy: '',
+    Water: ''
+  },
+  {
+    Product: 'Peas',
+    CO2: 0.6,
+    Energy: '',
+    Water: ''
+  },
+  {
+    Product: 'Barley',
+    CO2: 0.52,
+    Energy: '',
+    Water: ''
+  },
+  {
+    Product: 'Chickpeas',
+    CO2: 0.67,
+    Energy: '',
+    Water: ''
+  },
+  //Added made up Entries..................................
+  {
+    Product: 'Onions',
+    CO2: 0.2,
+    Energy: '',
+    Water: ''
+  },
+  {
+    Product: 'Tomatoes',
+    CO2: 0.6,
+    Energy: '',
+    Water: ''
+  },
+  {
+    Product: 'Carrots',
+    CO2: 0.3,
+    Energy: '',
+    Water: ''
+  },
+  {
+    Product: 'Celery',
+    CO2: 0.4,
+    Energy: '',
+    Water: ''
+  },
+  {
+    Product: 'Red wine',
+    CO2: 1.5,
+    Energy: '',
+    Water: ''
+  },
+  {
+    Product: 'White Flour',
+    CO2: 0.55,
+    Energy: '',
+    Water: ''
+  },
+  {
+    Product: 'Red wine',
+    CO2: 1.5,
+    Energy: '',
+    Water: ''
+  },
+  {
+    Product: 'Olive oil',
+    CO2: 0.8,
+    Energy: '',
+    Water: ''
+  },
+  {
+    Product: 'Garlic',
+    CO2: 0.2,
+    Energy: '',
+    Water: ''
+  },
+  {
+    Product: 'Aubergine',
+    CO2: 0.32,
+    Energy: '',
+    Water: ''
+  },
+  {
+    Product: 'Pepper',
+    CO2: 0.35,
+    Energy: '',
+    Water: '',
+    Replacement: {Name:'Pepper regional',CO2:0.33}
+  },
+  {
+    Product: 'Courgette',
+    CO2: 0.31,
+    Energy: '',
+    Water: '',
+    Replacement: {Name:'Courgettes organic',CO2:0.30}
+  },
+  {
+    Product: 'Cream',
+    CO2: 2.1,
+    Energy: '',
+    Water: ''
+  },
+  {
+    Product: 'Strawberries',
+    CO2: 0.4,
+    Energy: '',
+    Water: '',
+    Replacement: {Name:'Ribes (seasonal)',CO2:0.35}
+  },
+  {
+    Product: 'Biscuits',
+    CO2: 2.5,
+    Energy: '',
+    Water: ''
+  }
+]
+
+
+return msg;
