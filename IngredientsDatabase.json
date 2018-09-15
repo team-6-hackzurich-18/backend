@@ -369,6 +369,7 @@
       CO2: 0.4,
       Energy: '',
       Water: ''
+      Replacement: {Name:'Ribes (seasonal)',CO2:0.35}
     },
     {
       Product: 'Biscuits',
