@@ -6,96 +6,104 @@
       Product: 'Almond milk',
       CO2: 1.09,
       Energy: 1.09,
-      Water: 1.09
+      Water: 1.09,
     },
     {
       Product: 'Almonds',
       CO2: 2.18,
       Energy: 26.31,
-      Water: 1.9
+      Water: 1.9,
     },
     {
       Product: 'Beef',
       CO2: 27.76,
       Energy: 164.22,
-      Water: 0.47
+      Water: 0.47,
+      Replacement: {Name:'Tofu',CO2:3.23}
     },
     {
       Product: 'Cheese slices',
       CO2: 8.29,
       Energy: 35.5,
-      Water: 0.15
+      Water: 0.15,
     },
     {
       Product: 'Cheese spread',
       CO2: 6.2,
       Energy: 26.71,
-      Water: 0.11
+      Water: 0.11,
     },
     {
       Product: 'Chicken',
       CO2: 6.82,
       Energy: 64.14,
-      Water: 0.34
+      Water: 0.34,
     },
     {
       Product: 'Chocolate',
       CO2: 14.67,
       Energy: 90.25,
-      Water: 0.38
+      Water: 0.38,
     },
     {
       Product: 'Chocolate milk',
       CO2: 4.65,
       Energy: 26.92,
-      Water: 0.11
+      Water: 0.11,
     },
     {
       Product: 'Corn',
       CO2: 0.19,
       Energy: 1.88,
-      Water: 0.06
+      Water: 0.06,
     },
     {
       Product: 'Dried Beef',
       CO2: 27.76,
       Energy: 164.22,
-      Water: 0.47
+      Water: 0.47,
+
     },
     {
       Product: 'Dry Pasta',
       CO2: 1.49,
       Energy: 17.23,
-      Water: 0.01
+      Water: 0.01,
+
     },
     {
       Product: 'Fresh ravioli with meat',
       CO2: 10.25,
       Energy: 66.22,
-      Water: 0.16
+      Water: 0.16,
+
     },
     {
       Product: 'Fresh ravioli with spinach and ricotta',
       CO2: 3.06,
       Energy: 20.38,
-      Water: 0.04
+      Water: 0.04,
+
     },
     {
       Product: 'Gruy\ufffdre',
       CO2: 8.29,
       Energy: 35.5,
-      Water: 0.15
+      Water: 0.15,
+
     },
     {
       Product: 'Ham',
       CO2: 10.76,
       Energy: 91.4,
+
       Water: 0.52
     },
     {
       Product: 'Lentils',
       CO2: 0.78,
       Energy: 5.67,
+
       Water: 0.14
     },
     {
