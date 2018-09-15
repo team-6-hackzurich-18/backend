@@ -97,7 +97,7 @@
       {
         "Product": "Lamb",
 				"kg":0.175
-			},
+			}
 		]
 }
 ```json
@@ -136,7 +136,7 @@
     {
       "Product": "Biscuits",
       "kg":0.005
-    },
+    }
   ]
 }
 ```json
